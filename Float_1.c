@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 union float_t{
   float fu;
   unsigned char var[4];
@@ -12,4 +12,4 @@ int main(void) {
     printf(" %x ", num.var[i]);
   }
   return 0;
-}*/
+}
